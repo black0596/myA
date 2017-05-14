@@ -1,0 +1,168 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block; }
+
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,arial,\5b8b\4f53; }
+
+input, select, textarea {
+    font-size: 100%; }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+
+th {
+    text-align: inherit; }
+
+a img, fieldset, img {
+    border: 0; }
+
+iframe {
+    display: block; }
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal; }
+
+del {
+    text-decoration: line-through; }
+
+address, caption, cite, code, dfn, em, th, var {
+    font-style: normal;
+    font-weight: 500; }
+
+ol, ul {
+    list-style: none; }
+
+caption, th {
+    text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 500; }
+
+q:after, q:before {
+    content: ''; }
+
+sup {
+    vertical-align: text-top; }
+
+sub {
+    vertical-align: text-bottom; }
+
+a:hover {
+    text-decoration: underline; }
+
+a, ins {
+    text-decoration: none; }
+
+html, body {
+    font-size: 20px;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; }
+
+* {
+    margin: 0;
+    padding: 0; }
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: ''; }
+
+.clearfix {
+    zoom: 1; }
+
+.wrap header {
+    height: 2.3rem;
+    border-bottom: 1px solid #f3f3f3; }
+.wrap header .logo {
+    background: url("../img/logo.png") no-repeat;
+    width: 2.3rem;
+    height: 1.1rem;
+    background-size: 100%;
+    margin-left: 0.9rem;
+    margin-top: 0.6rem;
+    float: left; }
+.wrap header .logo a {
+    display: block;
+    height: 100%;
+    text-indent: -999em; }
+.wrap header .navbar {
+    float: left;
+    margin-left: 0.4rem; }
+.wrap header .navbar div {
+    float: left;
+    font-size: 0.7rem;
+    padding: 0 0.5rem;
+    line-height: 2.4rem;
+    font-weight: 300; }
+.wrap header .navbar :nth-child(1) {
+    color: #2384e8; }
+.wrap header .navbar :nth-child(2) {
+    color: #9f7860; }
+.wrap header .navbar :nth-child(3) {
+    color: #e4a813; }
+.wrap header .navbar :nth-child(4) {
+    color: #51c5d5; }
+.wrap header .nav_rig {
+    background: url("../img/so.png") no-repeat;
+    width: 1.25rem;
+    height: 0.9rem;
+    float: right;
+    margin-top: 0.8rem;
+    margin-right: 0.9rem;
+    background-size: cover; }
+.wrap .nav_title {
+    margin: 1.5rem auto 0 auto;
+    width: 13.9rem; }
+.wrap .nav_title div {
+    width: 6.8rem;
+    height: 2.2rem;
+    background: #F6F6F6;
+    float: left;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem; }
+.wrap .nav_title div a {
+    font-size: 0.7rem;
+    display: block;
+    height: 100%;
+    text-align: center;
+    line-height: 2.2rem;
+    color: #494949; }
+.wrap .nav_title .mar {
+    margin-right: 0;
+    margin-bottom: 0; }
+.wrap .count {
+    padding-left: 0.9rem; }
+.wrap .count a {
+    margin-top: 1.2rem;
+    display: block;
+    padding-bottom: 1.3rem;
+    border-bottom: 1px solid #f1f1f1; }
+.wrap .count a .feed-content .title {
+    width: 9.3rem;
+    float: left;
+    color: #494949;
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem; }
+.wrap .count a .feed-content .icon {
+    float: left;
+    margin-left: 1.2rem;
+    width: 3.65rem;
+    height: 3.65rem;
+    background: url("../img/icon.jpeg") no-repeat -32px;
+    background-size: cover; }
+.wrap .count a .feed-content p {
+    color: #aaaaaa;
+    font-size: 0.6rem;
+    float: left;
+    width: 100%; }
+.wrap .count a .feed-content .form {
+    color: #cccccc;
+    font-size: 0.6rem;
+    float: left;
+    margin-top: 0.85rem; }
+
+/*# sourceMappingURL=index.css.map */
